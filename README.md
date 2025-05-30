@@ -1,80 +1,80 @@
 Checkout the website :https://movie-recommender-system-aiffssrmb2n8u6qxmwr3ro.streamlit.app/
 Here's a clean and detailed README.md for your *Movie Recommender System* project, with all the essential sections like overview, features, installation steps, usage, and model file instructions:
 
----
+📽️ Movie Recommender System
+A personalized movie recommendation web app built using Machine Learning, Streamlit, and Python. It suggests similar movies based on a selected movie using cosine similarity and a pre-trained dataset.
 
-## 📽 Movie Recommender System
+🚀 Features
+🎬 Get instant movie recommendations
 
-A personalized movie recommendation web app built using *Machine Learning, **Streamlit, and **Python. It suggests similar movies based on a selected movie using **cosine similarity* and a pre-trained dataset.
+🔍 Search from a list of 5000+ movies
 
----
+📊 Backend logic using cosine similarity
 
-### 🚀 Features
+🧠 Trained model stored as similarity.pkl
 
-* 🎬 Get instant movie recommendations
-* 🔍 Search from a list of 5000+ movies
-* 📊 Backend logic using cosine similarity
-* 🧠 Trained model stored as similarity.pkl
-* 🌐 Simple web interface using *Streamlit*
+🌐 Simple web interface using Streamlit
 
----
+🛠️ Tech Stack
+Python
 
-### 🛠 Tech Stack
+Jupyter Notebook
 
-* Python
-* Jupyter Notebook
-* Streamlit
-* Scikit-learn
-* Pandas / Numpy
-* TMDB API (for posters)
+Streamlit
 
----
+Scikit-learn
 
-## 🧠 How It Works
+Pandas / Numpy
 
-1. Movie titles are converted into numerical vectors using text-based feature engineering.
-2. Cosine similarity is calculated between movies.
-3. Top 5 most similar movies are returned as recommendations.
+TMDB API (for posters)
 
----
+🧠 How It Works
+Movie titles are converted into numerical vectors using text-based feature engineering.
 
-## 📦 Installation & Setup
+Cosine similarity is calculated between movies.
 
-> Make sure Python 3.8+ is installed.
+Top 5 most similar movies are returned as recommendations.
 
-### 🔹 1. Clone the Repository
+📦 Installation & Setup
+Make sure Python 3.8+ is installed.
 
+🔹 1. Clone the Repository
 bash
-git clone https://github.com/Aaryan-Lunis/movie_recommender_system.git
+Copy
+Edit
+git clone https://github.com/yourusername/movie_recommender_system.git
 cd movie_recommender_system
-
-
-### 🔹 2. Create and Activate Virtual Environment
-
+🔹 2. Create and Activate Virtual Environment
 bash
+Copy
+Edit
 python -m venv venv
 # Windows:
 venv\Scripts\activate
 # Mac/Linux:
 source venv/bin/activate
-
-
-### 🔹 3. Install Dependencies
-
+🔹 3. Install Dependencies
 bash
+Copy
+Edit
 pip install -r requirements.txt
+🔹 4. Add the similarity.pkl file
+This file is not included in the repo due to size limits.
+➡️ Download similarity.pkl from GitHub Releases
+Place it in the main project directory.
 
-
-### 🔹 4. Run the App
-
+🔹 5. Run the App
 bash
+Copy
+Edit
 streamlit run app.py
+📷 Screenshot
+<!-- Replace with your actual image or remove this section -->
 
----
-
-## 📁 Project Structure
-
-
+📁 Project Structure
+bash
+Copy
+Edit
 movie_recommender_system/
 │
 ├── app.py                # Streamlit frontend
@@ -83,25 +83,17 @@ movie_recommender_system/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
-
----
-
-## 🔐 API Key Note
-
+🔐 API Key Note
 This app uses TMDB API to fetch movie posters.
 Make sure to replace the API key in app.py with your own key.
-➡ Get yours at: [https://www.themoviedb.org/settings/api](https://www.themoviedb.org/settings/api)
+➡️ Get yours at: https://www.themoviedb.org/settings/api
 
----
-
-## 🤝 Contributing
-
+🤝 Contributing
 Pull requests and suggestions are welcome!
 Feel free to fork the repo and submit improvements.
 
----
-
+📄 License
+This project is open-source under the MIT License.
 ## 📄 License
 
 This project is open-source under the [MIT License](LICENSE).
