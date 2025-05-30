@@ -1,101 +1,134 @@
 Checkout the website :https://movie-recommender-system-aiffssrmb2n8u6qxmwr3ro.streamlit.app/
 Here's a clean and detailed README.md for your *Movie Recommender System* project, with all the essential sections like overview, features, installation steps, usage, and model file instructions:
 
-📽️ Movie Recommender System
-A personalized movie recommendation web app built using Machine Learning, Streamlit, and Python. It suggests similar movies based on a selected movie using cosine similarity and a pre-trained dataset.
+Here’s a **professional, clean, and beginner-friendly `README.md`** file you can use for your **Movie Recommendation System** project on GitHub.
 
-🚀 Features
-🎬 Get instant movie recommendations
+---
 
-🔍 Search from a list of 5000+ movies
+## 📽️ Movie Recommendation System
 
-📊 Backend logic using cosine similarity
+A content-based movie recommender system built using Python, pandas, scikit-learn, and Streamlit. It recommends movies based on similarity scores between movie descriptions using cosine similarity.
 
-🧠 Trained model stored as similarity.pkl
+![App Demo](https://user-images.githubusercontent.com/your-image-link/demo.gif) <!-- Optional demo gif/image -->
 
-🌐 Simple web interface using Streamlit
+---
 
-🛠️ Tech Stack
-Python
+## 🔧 Features
 
-Jupyter Notebook
+* 🔍 Search for a movie and get 5 similar movie recommendations
+* 🧠 Uses cosine similarity on movie metadata (genre, cast, etc.)
+* 🌐 Built with Streamlit for an interactive UI
+* 🧾 Clean UI and fast performance
 
-Streamlit
+---
 
-Scikit-learn
+## 📁 Project Structure
 
-Pandas / Numpy
+```
+📦 Movie-Recommendation-System/
+┣ 📂 .streamlit/
+┃ ┗ config.toml
+┣ 📂 data/
+┃ ┗ similarity.pkl  # (Handled via Git LFS)
+┣ 📜 app.py          # Streamlit app
+┣ 📜 movies.csv      # Movie metadata
+┣ 📜 requirements.txt
+┣ 📜 README.md
+```
 
-TMDB API (for posters)
+---
 
-🧠 How It Works
-Movie titles are converted into numerical vectors using text-based feature engineering.
+## 🚀 Demo
 
-Cosine similarity is calculated between movies.
+Run it locally in your browser using:
 
-Top 5 most similar movies are returned as recommendations.
-
-📦 Installation & Setup
-Make sure Python 3.8+ is installed.
-
-🔹 1. Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/movie_recommender_system.git
-cd movie_recommender_system
-🔹 2. Create and Activate Virtual Environment
-bash
-Copy
-Edit
-python -m venv venv
-# Windows:
-venv\Scripts\activate
-# Mac/Linux:
-source venv/bin/activate
-🔹 3. Install Dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
-🔹 4. Add the similarity.pkl file
-This file is not included in the repo due to size limits.
-➡️ Download similarity.pkl from GitHub Releases
-Place it in the main project directory.
-
-🔹 5. Run the App
-bash
-Copy
-Edit
+```bash
 streamlit run app.py
-📷 Screenshot
-<!-- Replace with your actual image or remove this section -->
+```
 
-📁 Project Structure
-bash
-Copy
-Edit
-movie_recommender_system/
-│
-├── app.py                # Streamlit frontend
-├── similarity.pkl        # ML model file (externally downloaded)
-├── movie_list.pkl        # List of movie data
-├── requirements.txt
-├── README.md
-└── .gitignore
-🔐 API Key Note
-This app uses TMDB API to fetch movie posters.
-Make sure to replace the API key in app.py with your own key.
-➡️ Get yours at: https://www.themoviedb.org/settings/api
+---
 
-🤝 Contributing
-Pull requests and suggestions are welcome!
-Feel free to fork the repo and submit improvements.
+## 🛠️ Installation & Setup
 
-📄 License
-This project is open-source under the MIT License.
-## 📄 License
+### 1. Clone the repo
 
-This project is open-source under the [MIT License](LICENSE).
+```bash
+git clone https://github.com/Aaryan-Lunis/Movie-Recommendation-System.git
+cd Movie-Recommendation-System
+```
+
+### 2. Setup virtual environment (optional but recommended)
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Make sure Git LFS is installed
+
+This is needed to fetch `similarity.pkl`:
+
+```bash
+git lfs install
+git lfs pull
+```
+
+### 5. Run the app
+
+```bash
+streamlit run app.py
+```
+
+Open your browser and go to: `http://localhost:8501/`
+
+---
+
+## 📦 Requirements
+
+* Python 3.8+
+* pandas
+* scikit-learn
+* streamlit
+* Git LFS (for large file support)
+
+Install them using:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 📌 Example
+
+Enter any movie title like `The Dark Knight`, and get 5 recommendations such as:
+
+* Batman Begins
+* The Dark Knight Rises
+* Inception
+* Interstellar
+* Joker
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🤝 Contributions
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+
 
 ---
