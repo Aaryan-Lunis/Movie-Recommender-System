@@ -1,7 +1,4 @@
 Checkout the website :https://movie-recommender-system-aiffssrmb2n8u6qxmwr3ro.streamlit.app/
-Here's a clean and detailed README.md for your *Movie Recommender System* project, with all the essential sections like overview, features, installation steps, usage, and model file instructions:
-
-Here’s a **professional, clean, and beginner-friendly `README.md`** file you can use for your **Movie Recommendation System** project on GitHub.
 
 ---
 
