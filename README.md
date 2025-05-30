@@ -45,7 +45,7 @@ A personalized movie recommendation web app built using *Machine Learning, **Str
 ### 🔹 1. Clone the Repository
 
 bash
-git clone https://github.com/yourusername/movie_recommender_system.git
+git clone https://github.com/Aaryan-Lunis/movie_recommender_system.git
 cd movie_recommender_system
 
 
