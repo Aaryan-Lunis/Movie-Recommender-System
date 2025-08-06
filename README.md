@@ -10,6 +10,7 @@ A content-based movie recommender system built using Python, pandas, scikit-lear
 
 ![App Demo](https://user-images.githubusercontent.com/your-image-link/demo.gif) <!-- Optional demo gif/image -->
 
+
 ---
 
 ## 🔧 Features
